@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/computational-thinking-rework-react-routing/static/css/main.258b613c.css",
+    "main.js": "/computational-thinking-rework-react-routing/static/js/main.a020a7ed.js",
+    "static/media/chcaa_logo.png": "/computational-thinking-rework-react-routing/static/media/chcaa_logo.227e86e5ed3871b6d546.png",
+    "index.html": "/computational-thinking-rework-react-routing/index.html",
+    "main.258b613c.css.map": "/computational-thinking-rework-react-routing/static/css/main.258b613c.css.map",
+    "main.a020a7ed.js.map": "/computational-thinking-rework-react-routing/static/js/main.a020a7ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.258b613c.css",
+    "static/js/main.a020a7ed.js"
+  ]
+}
