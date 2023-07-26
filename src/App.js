@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import { Link } from "react-router-dom";
 import './App.css';
+import { lessons } from './lessons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 className="lesson-title">Lessons</h1>
+      <div className="lesson-grid">
+        {lessons.map((lesson, index) => {
+          return (
+            <Link to={`/lesson/${index + 1}`}>
+              {`Lesson ${index + 1}`}
+            </Link>
+          );
+        })}
+      </div>
+    </>
   );
 }
 
